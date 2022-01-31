@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Filter a drug by affinity</title>
+</head>
+<body>
+<form action="/drugs/filter" method="GET">
+    <label for="name">Drugbank ID:</label><br>
+    <input type="text" id="drugbank_id" name="drugbank_id"><br>
+    <label for="password">Measurement:</label><br>
+    <input type="text" id="measure" name="measure"><br>
+    <label for="username">Minimum affinity:</label><br>
+    <input type="text" id="minaff" name="minaff"><br>
+    <label for="institution">Maximum affinity:</label><br>
+    <input type="text" id="maxaff" name="maxaff"><br>
+
+    <button type="submit">Filter</button>
+</form>
+<a href="/">Home</a>
+</body>
+</html>
